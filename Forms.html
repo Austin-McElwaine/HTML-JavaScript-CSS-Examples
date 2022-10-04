@@ -1,0 +1,73 @@
+<html> 
+<head>
+<title>Forms</title>
+</head>
+<body>
+
+<form method="post" action="mailto:istotallynotaustin@gmail.com?subject=Form Practice" enctype="text/plain">
+
+<h3>What is your name?
+<input type="text" name="FLName" size="25"></h3>
+
+<h3>What is your IP?</h3>
+<input type="text" name="IP" size="25">
+
+<h3>What is your zip code?</h3>
+<ul>
+<input type="text" name="Zip" size="5"> 
+</ul>
+
+<h3>Which of the following states have you visited?</h3>
+<ul>
+<p>
+<input type="checkbox" name="States" value="MO">Missouri<br>
+<input type="checkbox" name="States" value="IO">Iowa<br>
+<input type="checkbox" name="States" value="IL">Illinois<br>
+<input type="checkbox" name="States" value="KY">Kentucky<br>
+<input type="checkbox" name="States" value="TN">Tennessee<br>
+<input type="checkbox" name="States" value="AR">Arkansas<br>
+<input type="checkbox" name="States" value="OK">Oklahoma<br>
+<input type="checkbox" name="States" value="KS">Kansas<br>
+<input type="checkbox" name="States" value="NE">Nebraska
+</p>
+</ul>
+
+<h3>How many of the states in the United States have you visited?</h3>
+<ul>
+<p>
+<input type="radio" name="VStates" value="10">1 to 10<br>
+<input type="radio" name="VStates" value="20">11 to 20<br>
+<input type="radio" name="VStates" value="30">21 to 30<br>
+<input type="radio" name="VStates" value="40">31 to 40<br>
+<input type="radio" name="VStates" value="50">41 to 50
+</p>
+</ul>
+
+<h3>How many of the states in the United States have you visited?</h3>
+<ul>
+<select name="VStatesDD">
+<option value="DNA">Select Below</option>
+<option value="10">0-10</option>
+<option value="20">11-20</option>
+<option value="30">21-30</option>
+<option value="40">31-40</option>
+<option value="50">41-50</option>
+</select>
+</ul>
+
+<h3>What is your favorite memory of your travels?</h3>
+<ul>
+<textarea name="FavMem" rows="7" cols="50">Write here</textarea>
+</ul>
+
+<center>
+<input type="reset" value="Start Over!">
+<input type="submit" value="Send It Bruh">
+</center>
+
+</form>
+
+</body>
+<footer>
+</footer>
+</html>
